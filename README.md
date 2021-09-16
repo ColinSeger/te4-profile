@@ -1,5 +1,9 @@
 # Intro till GIT
 
+- Göra en presentation
+- Skapa template
+- Skapa uppgiften live, distribuera
+
 ## Vokabulär
 
 - Git: Versionshanteringssystem
@@ -12,6 +16,7 @@
 - Merge: Sammanfoga ändringar från andra branchar
 - main: Huvudbranch för ett repository
 - Pages: Webbhotell för att hosta webbsidor på GitHub 
+- Issues: metod för feedback
 
 ## Arbetsgång
 
