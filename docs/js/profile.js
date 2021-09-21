@@ -10,8 +10,8 @@ window.addEventListener('load', async () => {
         const template = document.querySelector('template');
         const clone = template.content.cloneNode(true);
 
-        if (profileImage) {
-            clone.querySelector('.profile__portrait').src = `images/${profileImage}`;
+        if (response.data.avatar_url) {
+            clone.querySelector('.profile__portrait').src = response.data.avatar_url;
         } else {
             clone.querySelector('.profile__portrait').src = `https://robohash.org/${githubUser}`;
         }
@@ -24,7 +24,7 @@ window.addEventListener('load', async () => {
         
         clone.querySelector('.profile__body').querySelector('.profile__text').textContent = response.data.bio;
 
-        const listData = {
+        const listData = {            
             organization: response.data.company,
             location: response.data.location,
             email: response.data.email,
