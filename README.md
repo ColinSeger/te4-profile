@@ -34,3 +34,16 @@
 - Skapa en pull request för att merga dev till main
 - Lös eventuella konflikter
 - Godkänn pull request
+
+# Intro till GIT classroom
+
+- skapa ett nytt classroom, NTI Gymnasiet Umeå - te4 konferens
+- Skapa ett template repo
+    - existerande repo
+    - såhär gör du
+- Skapa en uppgift i git classroom
+    - gruppgift
+    - template
+    - admin
+        -pages or no pages
+- distribuera invite länk
