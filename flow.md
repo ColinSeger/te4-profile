@@ -1,8 +1,32 @@
-```sequence {theme="hand"}
-Intro git->Vokabulär
-GitHub struktur
-Skapa repo
-
-
-
-```
+- Intro Git
+    - Vokabulär
+    - Datahantering / local / remote
+- GitHub struktur
+    - Enterprise
+        - members
+    - ORG
+        - members
+        - outside collabs
+        - repos
+    - Teams
+        - members
+        - repos
+- Skapa repo
+    - Template
+    - visibility
+- Intro GitHub classroom
+    - Skapa klass
+    - Skapa uppgift
+- Gruppuppgift
+    - Från template
+    - Testa att joina Team
+- Individuell uppgift
+    - Ge url
+    - Instruktioner
+    - Göra ändringar
+    - Slå på pages
+    - Lämna in
+- Feedback
+    - Issues
+    - Comments
+- Städa
