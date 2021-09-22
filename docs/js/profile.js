@@ -36,8 +36,16 @@ window.addEventListener('load', async () => {
             const li = document.createElement('li');
             const icon = document.createElement('img');
             icon.src = `images/${key}.svg`;
+            icon.alt = `Icon for ${key}`;
             li.classList.add('profile__list-item');
-            li.textContent = value;
+            if (key === 'link') {
+                const a = document.createElement('a');
+                a.href = `https://${value}`;
+                a.textContent = value;
+                li.appendChild(a);
+            } else {
+                li.textContent = value;
+            }
             li.prepend(icon);
             clone.querySelector('.profile__list').appendChild(li);
         }
