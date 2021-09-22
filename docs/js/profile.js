@@ -3,7 +3,7 @@ window.addEventListener('load', async () => {
 
     axios
         .get(`https://api.github.com/users/${githubUser}`)
-        .then(function (response) {
+        .then(response => {
             const template = document.querySelector('template');
             const clone = template.content.cloneNode(true);
 
@@ -59,8 +59,15 @@ window.addEventListener('load', async () => {
             const body = document.querySelector('body');
             body.appendChild(clone);
         })
-        .catch(function (error) {
-            // handle error
-            console.log(error);
+        .catch(error => {
+            console.error(error);
+            const section = document.createElement('section');
+            section.classList.add('profile');
+            const h1 = document.createElement('h1');
+            h1.textContent = '404: No profile found for that user.';
+            h1.classList.add('profile__heading');
+            section.appendChild(h1);
+            const body = document.querySelector('body');
+            body.appendChild(section);
         });
 });
