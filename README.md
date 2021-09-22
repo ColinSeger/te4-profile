@@ -1,49 +1,19 @@
-# Intro till GIT
+# Instruktioner
 
-- Göra en presentation
-- Skapa template
-- Skapa uppgiften live, distribuera
+- Acceptera uppgift
+- Öppna uppgifts repot på GitHub (webbsidan)
+- Tryck . (punkt) på ditt tangentbord för att öppna vscode i browsern
+- Navigera in i ```docs/``` foldern
+- Öppna filen index.html
+- Redigera värdet på rad 27 i index.html
 
-## Vokabulär
+```js
+const githubUser = "jensnti"; // <- din github användare
+```
 
-- Git: Versionshanteringssystem
-- GitHub: Webbhotell för Git, Microsoft
-- Repository: Den samling filer som hör till projektet
-- Branch: Del av repository
-- Commit: De ändringar som är utförda i projektet
-- Push: Skicka ändringar till repository
-- Pull: Hämta ändringar från repository
-- Merge: Sammanfoga ändringar från andra branchar
-- main: Huvudbranch för ett repository
-- Pages: Webbhotell för att hosta webbsidor på GitHub 
-- Issues: metod för feedback
-
-## Arbetsgång
-
-- Skapa repository
-- Arbeta med filer i main branch
-- Committa de ändringar som är gjorda
-- Push för att ladda upp dem till repositoryt på GitHub
-
-### Utökad arbetsgång
-
-- Skapa branch, tex. dev
-- Arbeta med filer
-- Committa de ändringar som är gjorda
-- Gör en push för att ladda upp i dev branchen
-- Skapa en pull request för att merga dev till main
-- Lös eventuella konflikter
-- Godkänn pull request
-
-# Intro till GIT classroom
-
-- skapa ett nytt classroom, NTI Gymnasiet Umeå - te4 konferens
-- Skapa ett template repo
-    - existerande repo
-    - såhär gör du
-- Skapa en uppgift i git classroom
-    - gruppgift
-    - template
-    - admin
-        -pages or no pages
-- distribuera invite länk
+- Spara filen
+- Stäng VScode
+- Från ditt GitHub repo öppna settings i menyn
+- Navigera till "Pages"
+- Slå på GitHub Pages och välj branch ```main``` och ```docs/``` foldern
+- Öppna den url du får, vänta lite, ladda om sidan
