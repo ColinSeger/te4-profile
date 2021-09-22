@@ -1,7 +1,4 @@
-$ratio: 1.618;
-$white: #fafafa;
-$black: #212121;
-$gray: #616161;
+@use "theme" as theme;
 
 * {
     margin: 0;
@@ -18,12 +15,12 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     line-height: 1.618;
     font-weight: 400;
 
-    background-color: $white;
-    color: $black;
+    background-color: theme.$white;
+    color: theme.$black;
 }
 
 img {
@@ -59,8 +56,8 @@ img {
         display: inline-block;
 
         font-size: 1rem;
-        color: $gray;
-        
+        color: theme.$gray;
+
         --flow-space: 0.382rem;
     }
 
@@ -68,9 +65,9 @@ img {
         &-item {
             display: flex;
             height: 1.618rem;
-            --flow-space: .618rem;
+            --flow-space: 0.618rem;
             img {
-                padding-right: .618rem;
+                padding-right: 0.618rem;
             }
             a {
                 text-decoration: none;

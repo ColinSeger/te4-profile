@@ -57,7 +57,7 @@ img {
 .profile__list-item {
   display: flex;
   height: 1.618rem;
-  --flow-space: .618rem;
+  --flow-space: 0.618rem;
 }
 .profile__list-item img {
   padding-right: 0.618rem;
