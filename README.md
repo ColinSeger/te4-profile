@@ -5,7 +5,7 @@
 - Tryck . (punkt) på ditt tangentbord för att öppna vscode i browsern
 - Navigera in i ```docs/``` foldern
 - Öppna filen index.html
-- Redigera värdet på rad 27 i index.html
+- Redigera värdet på rad 28 i index.html
 
 ```js
 const githubUser = "jensnti"; // <- din github användare
